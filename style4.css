@@ -1,0 +1,58 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0909FF;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background-color: #151B8D;
+    color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #151B54;
+}
+
+header h1 {
+    color: #151B54;
+}
+
+.row {
+    width: 100%;
+}
+
+.post img {
+    float: left;
+    width: 50%;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+    
+    .post img {
+        width: 100%;
+        float: none;
+    }
+}
