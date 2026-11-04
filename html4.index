@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hamster World!</h1>
+    </header>
+    <div class="container">
+        <div class="column">
+            <h2>Hamster Facts</h2>
+            <p>Discover interesting facts about cute hamsters.</p>
+        </div>
+        <div class="column">
+            <h2>Hamster Types</h2>
+            <p>Learn about different types of hamsters.</p>
+        </div>
+        <div class="column">
+            <h2>Hamster Care</h2>
+            <p>Learn how to take care of your hamster.</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">Hamster Food</div>
+            <div class="column">Hamster Habitat</div>
+            <div class="column">Hamster Activities</div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="post">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGKRWGpWmpIBnO03h-S646a8Lt9oDTd97BNH-bPiAwvQ&s=10" alt="Hamster" class="hamster-image">
+            <p>This is an example of a cute hamster.</p>
+        </div>
+    </div>
+</body>
+</html>
